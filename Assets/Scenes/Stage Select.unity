@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 98110816}
   - component: {fileID: 98110815}
   - component: {fileID: 98110817}
+  - component: {fileID: 98110818}
   m_Layer: 5
   m_Name: Forest select
   m_TagString: Untagged
@@ -240,6 +241,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &98110818
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98110813}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cee40beeebae7b74088e01d594cf159a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &178049080
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,6 +618,7 @@ GameObject:
   - component: {fileID: 884305711}
   - component: {fileID: 884305710}
   - component: {fileID: 884305709}
+  - component: {fileID: 884305712}
   m_Layer: 5
   m_Name: Forest Border
   m_TagString: Untagged
@@ -677,6 +698,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884305707}
   m_CullTransparentMesh: 0
+--- !u!111 &884305712
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884305707}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 3c5e03d7811605d4fa99b5cfc8ca5991, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 3c5e03d7811605d4fa99b5cfc8ca5991, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &931992419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,7 +1385,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 406, y: 362}
+  m_AnchoredPosition: {x: 104, y: 764}
   m_SizeDelta: {x: 512, y: 512}
   m_Pivot: {x: 0.49999994, y: 0.49999994}
 --- !u!114 &2137064846
