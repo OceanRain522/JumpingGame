@@ -386,6 +386,7 @@ GameObject:
   - component: {fileID: 521603224}
   - component: {fileID: 521603223}
   - component: {fileID: 521603222}
+  - component: {fileID: 521603225}
   m_Layer: 5
   m_Name: Sky Border
   m_TagString: Untagged
@@ -410,7 +411,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -122, y: -713}
+  m_AnchoredPosition: {x: 287, y: -687}
   m_SizeDelta: {x: 403, y: 329}
   m_Pivot: {x: 0.5000001, y: 0.5000002}
 --- !u!114 &521603222
@@ -465,6 +466,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521603220}
   m_CullTransparentMesh: 0
+--- !u!111 &521603225
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521603220}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 3c5e03d7811605d4fa99b5cfc8ca5991, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 3c5e03d7811605d4fa99b5cfc8ca5991, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &663769843
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,6 +1286,7 @@ GameObject:
   - component: {fileID: 2036619025}
   - component: {fileID: 2036619024}
   - component: {fileID: 2036619023}
+  - component: {fileID: 2036619026}
   m_Layer: 5
   m_Name: Desert Border
   m_TagString: Untagged
@@ -1293,7 +1311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 99, y: -32}
+  m_AnchoredPosition: {x: -116, y: -77}
   m_SizeDelta: {x: 403, y: 329}
   m_Pivot: {x: 0.5000001, y: 0.5000002}
 --- !u!114 &2036619023
@@ -1348,6 +1366,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036619021}
   m_CullTransparentMesh: 0
+--- !u!111 &2036619026
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036619021}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 3c5e03d7811605d4fa99b5cfc8ca5991, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 3c5e03d7811605d4fa99b5cfc8ca5991, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2057375351
 GameObject:
   m_ObjectHideFlags: 0
