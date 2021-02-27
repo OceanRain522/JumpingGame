@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage Select.unity
     guid: 257e2dd1494bb8340ac161f0bb69b4b4
+  - enabled: 1
+    path: Assets/Scenes/Forest In-Game.unity
+    guid: a7f8358984f71da4a967d2d6e4b4ae99
+  - enabled: 1
+    path: Assets/Scenes/Desert In-Game.unity
+    guid: 2a4ef402360be0a4da80ad651a998ac2
+  - enabled: 1
+    path: Assets/Scenes/Sky In-Game.unity
+    guid: cfcd4902a8ad5da41937c7975d5c56e5
   m_configObjects: {}
