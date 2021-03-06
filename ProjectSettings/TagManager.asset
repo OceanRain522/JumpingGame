@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - vfx
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: fx
+    uniqueID: 3753027119
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
