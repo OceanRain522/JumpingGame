@@ -228,7 +228,7 @@ RectTransform:
   m_GameObject: {fileID: 28469661}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2022, y: 0.20222, z: 0.20222}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 22769457}
   m_Father: {fileID: 658296660}
@@ -237,7 +237,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -244}
-  m_SizeDelta: {x: 1065, y: 720}
+  m_SizeDelta: {x: 400, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &28469663
 MonoBehaviour:
@@ -465,8 +465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.81588, y: 125.1}
-  m_SizeDelta: {x: 354.3683, y: 283.63312}
+  m_AnchoredPosition: {x: 0.81588, y: 221.04996}
+  m_SizeDelta: {x: 765, y: 891.8999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &349427782
 MonoBehaviour:
@@ -489,7 +489,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5c413d9f960d03149a26bbb75c162ce4, type: 3}
-    m_FontSize: 83
+    m_FontSize: 213
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -587,12 +587,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 750, y: 1334}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1047,8 +1047,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34, y: 0.0000038146973}
-  m_SizeDelta: {x: 899.57874, y: 633}
+  m_AnchoredPosition: {x: 215, y: 0.000030518}
+  m_SizeDelta: {x: 1817.3064, y: 1334}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831142265
 MonoBehaviour:
