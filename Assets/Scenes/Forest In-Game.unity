@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 150018247}
   - component: {fileID: 150018250}
   - component: {fileID: 150018249}
+  - component: {fileID: 150018251}
   m_Layer: 5
   m_Name: Frog
   m_TagString: Untagged
@@ -341,7 +342,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00015258789, y: -4.764374}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -352,7 +353,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 808, y: 670}
+  m_Size: {x: 798.4742, y: 650.9456}
   m_EdgeRadius: 0
 --- !u!50 &150018250
 Rigidbody2D:
@@ -375,6 +376,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!111 &150018251
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150018245}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 5247168454cfa2c428c198cf013cdd6c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &191716685
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +909,7 @@ PrefabInstance:
     - target: {fileID: 1980388911260596563, guid: 34711a0c4099c664db6c0a949ee75d4b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1980388911260596563, guid: 34711a0c4099c664db6c0a949ee75d4b,
         type: 3}
@@ -1485,6 +1502,7 @@ GameObject:
   - component: {fileID: 1146407108}
   - component: {fileID: 1146407107}
   - component: {fileID: 1146407106}
+  - component: {fileID: 1146407110}
   - component: {fileID: 1146407105}
   m_Layer: 5
   m_Name: BtnLeft
@@ -1517,7 +1535,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 50
-        y: 100
+        y: 116
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1568,8 +1586,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 188
-        y: 99
+        x: 191
+        y: 108
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1613,13 +1631,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -100
+          value: -99.99
         - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 350.00012
+          value: 350
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params:
@@ -1628,7 +1646,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: -100, y: 350.00012}
+          value: {x: -99.99, y: 350}
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
@@ -1840,6 +1858,22 @@ RectTransform:
   m_AnchoredPosition: {x: -247.00003, y: -571.99994}
   m_SizeDelta: {x: 278, y: 286}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!111 &1146407110
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146407104}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5247168454cfa2c428c198cf013cdd6c, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5247168454cfa2c428c198cf013cdd6c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1256461074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1989,7 +2023,7 @@ PrefabInstance:
     - target: {fileID: 5697525890912001110, guid: 0ba9d7951cc1b0345b424a65ba7913e4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5697525890912001110, guid: 0ba9d7951cc1b0345b424a65ba7913e4,
         type: 3}
@@ -2633,7 +2667,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 100
+          value: 99.999985
         - useVariable: 1
           name: 
           tooltip: 
@@ -2648,7 +2682,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 100, y: 350.00012}
+          value: {x: 99.999985, y: 350.00012}
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
