@@ -1953,7 +1953,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 12
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params:
@@ -1962,7 +1962,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: -3, y: 10}
+          value: {x: -3, y: 12}
         fsmVector3Params:
         - useVariable: 1
           name: 
@@ -2232,7 +2232,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1312501674}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -2.137, y: 11.958, z: 7.8910003}
+  m_LocalEulerAnglesHint: {x: -16.381016, y: 9.824793, z: 7.909251}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 8, y: -20}
@@ -3383,7 +3383,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 12
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params:
@@ -3392,7 +3392,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {x: 3, y: 10}
+          value: {x: 3, y: 12}
         fsmVector3Params:
         - useVariable: 1
           name: 
